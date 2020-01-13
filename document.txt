@@ -19,3 +19,16 @@ data=json.dumps({"email":"kumarnitesh2000.nk@gmail.com","username":"testuser1","
 
 
 
+
+
+for simple sign up:
+
+
+
+import requests
+import json
+
+r1=requests.post(" https://is2eee7hyd.execute-api.us-east-1.amazonaws.com/prod/users/sign-up/",
+data=json.dumps({"email":"kumarnitesh2000.nk@gmail.com","username":"testuser","password":"Test@123","name":"nitesh"}))
+
+r1.json()
