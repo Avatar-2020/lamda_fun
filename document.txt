@@ -1,0 +1,21 @@
+--------------------------------------------
+
+the API KEY IS AS FOLLOWS : 
+ 
+ https://is2eee7hyd.execute-api.us-east-1.amazonaws.com/prod/users/
+
+
+
+
+1) for sign up the user use the following url for post method : 
+r1=requests.post(" https://is2eee7hyd.execute-api.us-east-1.amazonaws.com/prod/users/sign-up",
+#data=json.dumps({"email":"kumarnitesh2000.nk@gmail.com","username":"testuser1","password":"Test@123","name":"nitesh"}))
+
+
+2)in case user is successfully sign up then a verification code is sent to the user at correspnding email so post method :
+
+r1=requests.post(" https://is2eee7hyd.execute-api.us-east-1.amazonaws.com/prod/users/confirm-sign-up",
+data=json.dumps({"email":"kumarnitesh2000.nk@gmail.com","username":"testuser1","password":"Test@123","name":"nitesh","code":"759783"}))
+
+
+
