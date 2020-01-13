@@ -1,3 +1,5 @@
+The latitude of Meerut, Uttar Pradesh, India is 28.984644, and the longitude is 77.705956.
+
 --------------------------------------------
 
 the API KEY IS AS FOLLOWS : 
@@ -32,3 +34,7 @@ r1=requests.post(" https://is2eee7hyd.execute-api.us-east-1.amazonaws.com/prod/u
 data=json.dumps({"email":"kumarnitesh2000.nk@gmail.com","username":"testuser","password":"Test@123","name":"nitesh"}))
 
 r1.json()
+
+
+now verification come on your email :
+
